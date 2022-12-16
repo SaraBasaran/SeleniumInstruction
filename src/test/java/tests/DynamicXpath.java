@@ -1,9 +1,7 @@
 package tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
+import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,7 +25,7 @@ public class DynamicXpath {
     }
 
     @Test
-    public void dynamic_xpath(){
+    public void dynamicxpath(){
 ////      There are different xpath to locate a text element on a page
 ////      1. xpath:  "//*[.='Text of the element']"
 //        //        Verify if "Username : Admin" text is displayed on the page
